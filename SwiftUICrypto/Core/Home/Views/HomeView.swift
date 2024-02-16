@@ -34,7 +34,7 @@ struct HomeView: View {
 				Spacer(minLength: 0)
 			}
 		}).onAppear(perform: {
-			showPortfolio = true
+//			showPortfolio = true
 		})
 	}
     
@@ -58,7 +58,6 @@ extension HomeView {
 				)
 				
 			Spacer()
-			let _ = print("anon \(showPortfolio)")
 			Text(showPortfolio ? "Portfolio" : "Live Prices")
 				.font(.headline)
 				.fontWeight(.heavy)
