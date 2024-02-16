@@ -34,7 +34,7 @@ struct HomeView: View {
 				Spacer(minLength: 0)
 			}
 		}).onAppear(perform: {
-			showPortfolio = true
+			showPortfolio = false
 		})
 	}
     
